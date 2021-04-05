@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Image Similarity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1>Order Images by Similarity to Reference Image Below</h1>
+  <p>Click, drag, and drop images to re-arrange them from left (most similar) to right (least similar).</p>
+
+  <ul id="items-list" class="moveable">
+    <img src="images/lady2.jpg">
+    <img src="images/lady5.jpg">
+    <img src="images/lady4.jpg">
+    <img src="images/lady6.jpg">
+    <img src="images/lady3.jpg">
+  </ul>
+
+  <img class="ref-image" src="images/lady1.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
