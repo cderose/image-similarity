@@ -1,2 +1,2 @@
 # image-similarity
-Web page to reorder images based on similarity
+Web page to manually reorder images based on similarity: https://cderose.github.io/image-similarity/
